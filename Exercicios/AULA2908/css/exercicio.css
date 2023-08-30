@@ -1,0 +1,65 @@
+* {
+    width: 1080px;
+    height: 2060px;
+}
+
+
+body {
+    background-color: brown;
+
+}
+
+.container {
+    background-color: blanchedalmond;
+    width: 800px; /*definido o Comprimento*/
+    height: 500px; /*definido a Largura*/
+    margin: 400px; /*definido a margin*/
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 12%;
+    border-radius: 60px;
+}
+
+/* Texto Principal */
+
+.titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid black;
+    margin: 50px;
+    border-radius: 100px;
+    width: 700px;
+}
+
+.paragrafo{
+    margin-right: 50px;
+    margin-left: 45px;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.desc {
+    margin-left: 20px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;;
+}
+
+li {
+    margin-right: 200px;
+}
+
+/* Imagens */
+
+.image {
+
+}
+
+.zap {
+
+    padding-left: 10px;
+}
