@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: black url(/img/gato8.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(11, 145, 235);
+    
+}
+header > nav > ul{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+
+}
+
+header > nav > ul > li{
+    margin: 20px 30px;
+    list-style-type: none;
+    margin: auto;
+}
+
+header > nav > ul > li > a{
+    text-decoration-line: none;
+    font: normal bold 35px 'arial';
+    text-align: center;
+    color: rgb(161, 13, 13);
+}
+
+h1{
+    background-image: linear-gradient(to top, white , blue , yellow , red);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.principal {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    background-color: #fff;
+    width: 300px;
+    margin: 15px auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+}
