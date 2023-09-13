@@ -1,0 +1,33 @@
+body {
+    background-color: #fbfbfb;
+
+}
+
+h1 {
+    background-color: #8B0000;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(7, 0, 0);
+}
+
+ul{
+    text-decoration: none;
+
+}
+
+li {
+    text-decoration: none;
+
+}
+
+.cabecalho {
+ 
+
+}
