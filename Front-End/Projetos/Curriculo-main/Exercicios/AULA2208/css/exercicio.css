@@ -1,0 +1,49 @@
+body {
+    background-color: brown;
+
+}
+
+.container {
+    background-color: blanchedalmond;
+    width: 800px;
+    height: 500px;
+    margin: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 12%;
+    border-radius: 60px;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid black;
+    margin: 50px;
+    border-radius: 100px;
+    width: 700px;
+}
+
+.paragrafo{
+    margin-right: 50px;
+    margin-left: 50px;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.desc {
+    text-decoration: none;
+
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+
+}
+
+li {
+    text-decoration: none;
+
+}

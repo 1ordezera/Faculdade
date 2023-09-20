@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.caracteristicas{
+    background: linear-gradient(90deg, #8c0005 12%, #0d0f36 50%, #0d0f36 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b03af1",endColorstr="#6016a7",GradientType=1);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    font-family: 'Poppins', sans-serif;
+}
+
+.caracteristicasTitulo{
+    color: rgb(255, 255, 255);
+    grid-column: 1/13;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.caracteristicas_bloco1, .caracteristicas_bloco2, .caracteristicas_bloco3, .caracteristicas_bloco4{
+    background: linear-gradient(45deg, #0d0f36 12%, #8c0005 50%, #8c0005 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b03af1",endColorstr="#6016a7",GradientType=1);
+    margin: 16px;
+    border-radius: 8px;
+    padding: 8px;
+}
+.caracteristicas_bloco1{
+    grid-row-start: 2;
+    grid-column: 2/7;
+}
+
+.caracteristicas_bloco2{
+    grid-row-start: 2;
+    grid-column: 7/12;
+}
+
+.caracteristicas_bloco3{
+    grid-row-start: 3;
+    grid-column: 2/7;
+}
+
+.caracteristicas_bloco4{
+    grid-row-start: 3;
+    grid-column: 7/12;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+@media (max-width: 800px) {
+    .caracteristicas{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
